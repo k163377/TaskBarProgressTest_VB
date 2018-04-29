@@ -12,6 +12,7 @@ Public Class Form1
             Threading.Thread.Sleep(100)
         Next
 
+        TaskbarManager.Instance.SetProgressState(TaskbarProgressBarState.NoProgress)
         Button1.Enabled = True
     End Sub
 End Class
